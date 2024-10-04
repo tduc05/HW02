@@ -35,8 +35,8 @@
 
         .welcome-container {
             display: flex; 
-            align-items: center; 
-            gap: 20px; 
+            justify-content: space-between; 
+            align-items: flex-start; 
         }
 
         .welcome-img {
@@ -44,16 +44,11 @@
             height: auto; 
         }
 
-        .tebogo-container {
-            display: flex; 
-            justify-content: space-between; /* Space between text and image */
-            align-items: flex-start; 
-            gap: 20px; 
-        }
-
         .tebogo-img {
-            max-width: 200px; 
+            max-width: 300px; 
             height: auto; 
+            margin-left: 20px; 
+            margin-top: 30px; 
         }
 
         .programs-container {
@@ -84,18 +79,16 @@
 
 <section> 
     <div class="welcome-container">
-        <h2>Welcome to BYSF</h2> 
-        <img src="Flag_map_of_Botswana.svg.png" alt="Map of Botswana with flag" class="welcome-img">
-    </div>
-
-    <div class="tebogo-container">
         <div>
+            <h2>Welcome to BYSF</h2> 
+            <img src="Flag_map_of_Botswana.svg.png" alt="Map of Botswana with flag" class="welcome-img">
             <p>The Botswana Youth Sports Foundation (BYSF) is dedicated to empowering youth through the power of sports. We provide young athletes in Botswana with the skills, opportunities, and support they need to succeed both in sports and in life.</p>
             <p>Our programs span across soccer, basketball, track and field, and wellness, focusing on personal growth, team-building, and promoting healthy lifestyles. We work closely with global organizations like the NBA and FIFA, and athletes wear the BYSF logo on their shirts during international events.</p>
             <p>Whether you're an aspiring soccer player or someone passionate about basketball, track, or overall fitness, BYSF offers comprehensive training programs, expert coaching, and competitive opportunities that bring out the best in every athlete.</p>
         </div>
         <img src="tebogo.jpg" alt="Tebogo" class="tebogo-img">
-    </div>  
+    </div>
+</section>
 
 <section>
     <h3>Our Programs:</h3>
