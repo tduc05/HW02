@@ -1,167 +1,159 @@
-/* Basic body styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    line-height: 1.6; /* Improved readability */
-    background-color: #121111; /* Set the background color to black */
-    color: #000000; /* Set the default text color to white for contrast */
+    line-height: 1.6; 
+    background-color: #121111; 
+    color: #000000; 
 }
 
-/* Header styles */
 header {
-    background-color: #86b6ea; /* Blue background */
-    color: white; /* White text */
-    padding: 15px; /* Padding around the header */
-    text-align: right; /* Text aligned to the right */
-    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.698); /* Add subtle shadow for depth */
+    background-color: #86b6ea; 
+    color: white; 
+    padding: 15px; 
+    text-align: right; 
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.698); 
 }
 
-/* Navigation styles */
 nav ul {
-    list-style-type: none; /* Remove default list styling */
-    padding: 0; /* Remove padding */
-    margin: 0; /* Remove default margin */
-    display: flex; /* Use flexbox for horizontal alignment */
-    justify-content: flex-end; /* Align items to the right */
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+    justify-content: flex-end; 
 }
 
 nav ul li {
-    margin-right: 20px; /* Space between items */
+    margin-right: 20px; 
 }
 
 nav ul li:last-child {
-    margin-right: 0; /* No margin on the last item */
+    margin-right: 0; 
 }
 
 nav ul li a {
-    color: rgb(255, 255, 255); /* White link color */
-    text-decoration: none; /* Remove underline */
-    padding: 10px; /* Add padding for better click area */
-    transition: background-color 0.3s ease; /* Smooth hover effect */
+    color: rgb(255, 255, 255); 
+    text-decoration: none; 
+    padding: 10px; 
+    transition: background-color 0.3s ease; 
 }
 
 nav ul li a:hover {
-    background-color: rgba(255, 255, 255, 0.218); /* Light background on hover */
-    border-radius: 5px; /* Round the corners */
+    background-color: rgba(255, 255, 255, 0.218); 
+    border-radius: 5px; 
 }
 
 section {
-    padding: 20px; /* Padding around sections */
-    margin: 20px auto; /* Auto margins for center alignment */
-    max-width: 1200px; /* Set max width for content */
+    padding: 20px; 
+    margin: 20px auto; 
+    max-width: 1200px; 
     background: linear-gradient(135deg, rgba(165, 199, 223, 1) 0%, rgba(255, 255, 255, 1) 100%); 
-    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.613); /* Light shadow for depth */
-    border-radius: 8px; /* Rounded corners */
-
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.613); 
+    border-radius: 8px; 
 }
 
 .welcome-container {
-    display: flex; /* Use flexbox for side-by-side layout */
-    align-items: center; /* Vertically center items */
-    gap: 20px; /* Space between text and image */
-    justify-content: flex-start; /* Align items to the start */
+    display: flex; 
+    align-items: center; 
+    gap: 20px; 
+    justify-content: flex-start; 
 }
 
 .tebogo-img {
-    max-width: 200px; /* Set a smaller width for the Tebogo image */
-    height: auto; /* Maintain aspect ratio */
-    margin-left: 170px; /* Add margin to shift the image to the right */
+    max-width: 150px; 
+    height: auto; 
+    margin-left: 10px; 
 }
-/* Image styles */
+
 img {
-    max-width: 150px; /* Set a smaller width for the image */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Ensure image alignment */
-    margin: 20px 0; /* Space around images */
+    max-width: 150px; 
+    height: auto; 
+    display: block; 
+    margin: 20px 0; 
 }
 
-/* Footer styles */
 footer {
-    background-color: #414141; /* Dark gray background */
-    color: white; /* White text */
-    text-align: center; /* Centered text */
-    padding: 20px; /* Padding around footer */
-    margin-top: 40px; /* Space above footer */
-    font-size: 14px; /* Smaller font size */
+    background-color: #414141; 
+    color: white; 
+    text-align: center; 
+    padding: 20px; 
+    margin-top: 40px; 
+    font-size: 14px; 
 }
 
-/* Form styles */
 form {
-    display: flex; /* Flexbox for layout */
-    flex-direction: column; /* Stack items vertically */
+    display: flex; 
+    flex-direction: column; 
 }
 
 form label {
-    margin: 10px 0 5px; /* Margin for labels */
-    font-weight: bold; /* Bold labels */
+    margin: 10px 0 5px; 
+    font-weight: bold; 
 }
 
 form input,
 form textarea {
-    padding: 10px; /* Padding inside inputs */
-    margin-bottom: 10px; /* Space below inputs */
-    border: 1px solid #d8d5d5; /* Light gray border */
-    border-radius: 4px; /* Slightly rounded corners */
-    width: 100%; /* Full width */
-    box-sizing: border-box; /* Make sure padding and border fit */
+    padding: 10px; 
+    margin-bottom: 10px; 
+    border: 1px solid #d8d5d5; 
+    border-radius: 4px; 
+    width: 100%; 
+    box-sizing: border-box; 
 }
 
 button {
-    background-color: #000000; /* Blue background */
-    color: rgb(255, 255, 255); /* White text */
-    padding: 12px 20px; /* Padding inside button */
-    border: none; /* Remove border */
-    border-radius: 5px; /* Rounded corners */
-    cursor: pointer; /* Pointer cursor on hover */
-    transition: background-color 0.3s ease; /* Smooth hover transition */
+    background-color: #000000; 
+    color: rgb(255, 255, 255); 
+    padding: 12px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
 }
 
 button:hover {
-    background-color: #91b7dd; /* Darker blue on hover */
+    background-color: #91b7dd; 
 }
 
-/* Table styles */
 table {
-    width: 100%; /* Full width */
-    border-collapse: collapse; /* Remove space between borders */
-    margin: 20px 0; /* Space above and below */
-    background-color: white; /* White background for table */
+    width: 100%; 
+    border-collapse: collapse; 
+    margin: 20px 0; 
+    background-color: white; 
 }
 
 th, td {
-    border: 2px solid #5b5a5a; /* Light gray border */
-    padding: 12px; /* Padding inside cells */
-    text-align: left; /* Left align text */
+    border: 2px solid #5b5a5a; 
+    padding: 12px; 
+    text-align: left; 
 }
 
 th {
-    background-color: #b6cfecf1; /* Light background for table header */
+    background-color: #b6cfecf1; 
 }
 
-/* Responsive styles for smaller screens */
 @media (max-width: 600px) {
     nav ul {
-        flex-direction: column; /* Stack navigation items vertically */
-        align-items: flex-start; /* Align items to the left */
+        flex-direction: column; 
+        align-items: flex-start; 
     }
     
     nav ul li {
-        margin-right: 0; /* Remove right margin */
-        margin-bottom: 10px; /* Add bottom margin */
+        margin-right: 0; 
+        margin-bottom: 10px; 
     }
 
     section {
-        padding: 15px; /* Reduce padding */
-        margin: 10px; /* Reduce section margin */
+        padding: 15px; 
+        margin: 10px; 
     }
 
     footer {
-        padding: 15px; /* Reduce footer padding */
+        padding: 15px; 
     }
 
     form input,
     form textarea {
-        font-size: 16px; /* Larger input text for accessibility */
+        font-size: 16px; 
     }
 }
